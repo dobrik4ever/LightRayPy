@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "numpy", "pyglet"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LightRayPy"
+version = "0.0.1"
+authors = [
+  { name="Sergei Dobrovolskii", email="dobrik4ever@gmail.com" },
+]
+description = "This project aims to provide easy to use computation and visualization framework for geometric optics raytracing"
+readme = "README.md"
+requires-python = ">=3.10.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dobrik4ever/LightRayPy"
+"Bug Tracker" = "https://github.com/dobrik4ever/LightRayPy/issues"
